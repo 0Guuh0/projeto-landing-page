@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#logo{
+    width: 124px;
+    height: 52px;
+    margin-top: 52px;
+    margin-left: 56px;
+}
+
+#titulo-superior{
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 536px;
+    height: 102px;
+    font-size: 40px;
+}
+
+#menu-superior{
+    color: aliceblue;
+    background-image: url(imagens/fundo-superior.svg);
+}
+
+#paragrafo-superior{
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+    width: 536px;
+    height: 90px;
+    font-size: 20px;
+}
+
+#menu-informacional{
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 20px 50px 100px;
+}
+
+.textoinf{
+    display:flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin: 40px 0px 40px 80px;
+}
+
+#video{
+    width: 500px;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 0px 40px 0px 0px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    width: 500px;
+    height: 96px;
+}
+
+#textovideo{
+    color:#383838;
+    width: 500px;
+    height: 144px;
+}
+
+#carrossel{
+    padding: 50px;
+    background-color: #247BA0;
+}
+#titulo-carrosel{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+}
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+#Leonardo{
+    margin-right: 32.5px;
+}
+
+#Samanta{
+    margin-left: 0px;
+}
+
+#Bruna{
+    display: none;
+}
+
+.seta{
+    margin: 65px 32.5px 0px 32.5px;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+#formulario{
+    text-align: center;
+}
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    background-color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    color: #EAECE5;
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #310fb0;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px rgba(21, 16, 53, 0.589);
+}
